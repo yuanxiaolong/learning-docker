@@ -3,7 +3,7 @@
 容器(container) 它又是什么呢？
 
 * 从面相对象的角度上看，它是 **实例**
-* 从工程的角度上看，它是模具 **产品**
+* 从工程的角度上看，它是 **产品**
 
 为什么这样说呢？
 
@@ -58,6 +58,13 @@ f7007b2bb4cb        jwilder/nginx-proxy:latest              forego start -r     
 2.进入交互模式
 > <font size="3"> ``` docker run -i -t centos:centos6 /bin/bash ```
 把你想进入的容器id替换掉这里的 ``` centos:centos6``` 即可
+
+3.一次性容器
+> <font size="3"> 有时候我们只是需要运行一下容器，查看一下结果什么的。如果用```docker run ```则会保存历史记录，这时候在参数里加上```--rm=true``` 则当你退出docker容器时，会删除掉历史记录。
+
+4.后台运行
+> <font size="3"> 有时候我们需要后台运行容器，```docker run  -d ``` 表示后台运行
+
 
 #### 思考题
 Q : 我们范例中 2次 ``` docker run ``` 后，产生的2个容器id 是一样的么？

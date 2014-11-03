@@ -23,6 +23,6 @@ Docker的出现，给我们提供了无限的想象力。让我们可以封装�
 [《Docker——从入门到实践》](http://yeasy.gitbooks.io/docker_practice/content/index.html)介绍的比较全面，挺不错的。
 本书就是为了弥补一些这本书缺少的东西，而进一步补充。
 
-## url
+## 个人blog
 
-http://yuanxiaolong.gitbooks.io/learning-docker/
+http://blog.yuanxiaolong.cn
